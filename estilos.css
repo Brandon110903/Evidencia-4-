@@ -1,0 +1,15 @@
+header {
+    background-color: rgb(181, 121, 10); font-size:150%; text-align:center; color: aliceblue;
+}
+
+main{
+    background-color:  rgb(234, 219, 193); font-size:100%; text-align:center; color: rgb(0, 0, 0);
+}
+
+aside {
+    background-color: #9b2525;
+}
+
+footer {
+    background-color: darkslategray;
+}
