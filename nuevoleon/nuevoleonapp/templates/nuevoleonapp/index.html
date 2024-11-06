@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Leon</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/estilos.css' %}">
+    <!-- Inicio de la pagina  -->
+
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;">Nuevo Leon</h1 >
+       
+        <nav >
+            <ul id="Lugar">
+                <li><a style="font-size:100%;" href="{% url 'coahuila' %}">Coahuila</a></li>
+                <li><a style="font-size:100%;" href="{% url 'sanluis' %}">San Luis Potosí</a></li>
+                <li><a style="font-size:100%;" href="{% url 'zacatecas' %}">Zacatecas</a></li>
+                <li><a style="font-size:100%;" href="{% url 'datos' %}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mas datos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p lang="es" style="font-size:150%; text-align:justify;">Nuevo León es un estado ubicado en la región noreste de México, conocido por ser uno de los más prósperos y desarrollados del país. Su capital y ciudad más importante es Monterrey, una metrópoli que destaca como un centro industrial, económico y cultural de gran relevancia no solo en México, sino en toda América Latina.</p>
+
+        <a href="https://www.google.com.mx/maps/place/Nuevo+Le%C3%B3n/@25.4622395,-102.455066,7z/data=!3m1!4b1!4m6!3m5!1s0x86629584a2a5b05d:0x701df442c36cbbc6!8m2!3d25.592172!4d-99.9961947!16zL20vMDFnZmpr?entry=ttu" id="link_ubicacion " style="font-size:17pt;background-color: rgb(203, 187, 158); border-radius: 100px; padding: 9px;" >Ir a la ubicación</a>
+
+            <figure style ="text-align:center;font-size:150%">
+            <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAQA-CzpVctd5IPr2cTRRqTpXQpFbwDj7H3YCGALLzt7kap30q1Qjx4FbslhY0yR3Ts0&usqp=CAU" alt="Mapa del Estado de Nuevo Leon" > <figcaption>Mapa de Nuevo León</figcaption>
+            </figure>
+        
+            
+            <article></article>
+                <header>
+                <h2>Sectores de Nuevo León</h2>
+                </header>
+                <h3 style="font-size: 150%": >Economía</h3>
+                <section>
+                <blockquote cite="https://www.economia.gob.mx/datamexico/es/profile/geo/nuevo-leon-nl?redirect=true">
+                <p lang="es" style="font-size:150%; text-align:justify;"> Monterrey es el corazón industrial de México, hogar de importantes conglomerados y empresas multinacionales en sectores como la siderurgia, la cementera, la automotriz, y la tecnología. La ciudad es sede de corporaciones como FEMSA,<abbr title="Cementera de Mexico">CEMEX</abbr>, y Banorte, que tienen una presencia significativa tanto en México como en el extranjero. La economía de Monterrey es diversificada, con un fuerte énfasis en la innovación y el desarrollo tecnológico, lo que la ha llevado a ser considerada como un "Silicon Valley" mexicano</p>
+                </blockquote>
+                <div style="display: flex; justify-content: center">
+                    <figure style="text-align: center";>
+                        <img width="300px" src="https://www.gob.mx/cms/uploads/article/main_image/80669/nuevo-leon-monterrey-mexico.jpg" alt="Caldero de parque fundidora  ">
+                        <figcaption>Figura 1. Parque Fundidora</figcaption>
+                        </figure>
+                    <figure style="text-align: center";>
+                            <img width="300px" src="https://cdn.milenio.com/uploads/media/2020/11/25/monterrey-y-su-area-metropolitana-1.jpeg" alt="Zona Metropolitana de Mty  ">
+                            <figcaption>Figura 2. Zona Metropolitana MTY</figcaption>
+                        </figure>
+                </div>
+                <br><br><br>
+                <h4 style="font-size: 150%": >Información</h4>
+                <section>
+                <table border="1px solid black ;" style="text-align: center; width:100%; height: 200px"  >
+                    
+                    <tr>
+                        <th>Estado</th>
+                        <th>PIB per capita</th>
+                        <th>PIB</th>
+                        <th>Población</th>
+                        <th>PEA</th>
+                    </tr>
+                    <tr>
+                        <td>Nuevo Leon</td>
+                        <td>1.6</td>
+                        <td>3.5</td>
+                        <td>1.9</td>
+                        <td>3.2</td>
+                    </tr>
+                    <tr>
+                        <td>Coahuila</td>
+                        <td>2.2</td>
+                        <td>3.8</td>
+                        <td>1.6</td>
+                        <td>2.5</td>
+                    </tr>
+                     <tr>
+                        <td>Zacatecas </td>
+                        <td>0.3</td>
+                        <td>3.3</td>
+                        <td>3.1</td>
+                        <td>4.2</td>
+                    </tr>
+                    <tr>
+                        <td>San Luis Potosi</td>
+                        <td>1.5</td>
+                        <td>3.2</td>
+                        <td>1.7</td>
+                        <td>2.9</td>
+                    </tr>
+                </table>
+                 </section>
+                <br><br><br>
+                    <hr>
+                </section>
+                
+                <h3 style="font-size: 150%">Turismo</h3>
+                <section>
+                    <blockquote cite="https://www.nl.gob.mx/turismo"><p lang="es" style="font-size:150%; text-align:justify;">Aunque Monterrey es una ciudad altamente urbanizada, está rodeada por paisajes naturales impresionantes. La proximidad de la Sierra Madre Oriental ofrece a los residentes y visitantes la oportunidad de disfrutar de actividades al aire libre como el senderismo, la escalada, y el ciclismo de montaña. La región es famosa por atracciones naturales como el Parque Nacional Cumbres de Monterrey, el Cerro de la Silla, y la cascada Cola de Caballo, que son destinos populares para los amantes de la naturaleza.</p></blockquote>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cCVC2Vn0pFM?si=hLCZ1oVnexnJaf0L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="box-shadow:  20px 20px 60px #7b7b7b,
+                    
+                    -20px -20px 60px #ffffff;"></iframe>
+
+                    <h2>Mas informacion por correo </h2> 
+                    <form action="https://outlook.office365.com/mail/" id= "formulario" target="_blank"> 
+                    <label for="fname">Nombre completo:</label><br> 
+                    <input type="text" id="fname" name="fname" value="Brandon Mendez Lopez"><br> 
+                    <label for="lname">Correo electronico :</label><br> 
+                    <input type="text" id="lname" name="lname" value="correo_123@hotmail.com"><br><br> 
+                    <input type="submit" value="enviar">
+                     
+                    </form> 
+ 
+                    
+                </section>
+                <hr>
+                <h3 style="font-size: 150%">Cultura</h3>
+                <section>
+                    <blockquote cite="https://www.nl.gob.mx/cultura"><p lang="es" style="font-size:150%; text-align:justify;">
+                    Además de su potencia económica, Monterrey es un importante centro cultural y educativo que atrae a miles de personas tanto de México como del extranjero. La ciudad cuenta con instituciones de prestigio internacional, como el Tecnológico de Monterrey, que no solo es una de las universidades más reconocidas de América Latina, sino también un líder en innovación y emprendimiento. Esta universidad ha formado a líderes en diversos campos y ha contribuido significativamente al desarrollo científico y tecnológico de la región.</p>
+
+                   <p lang="es" style="font-size:150%; text-align:justify;"> Monterrey también alberga otras instituciones educativas de renombre, como la Universidad Autónoma de Nuevo León (UANL), una de las universidades públicas más grandes y respetadas del país. La UANL ofrece una amplia gama de programas académicos y es conocida por su investigación en áreas como la ingeniería, las ciencias de la salud, y las ciencias sociales.
+                   </p>
+
+                   <p lang="es" style="font-size:150%; text-align:justify;"> Otra cosa de nuestra Gran Cultura en Nuevo Leon es el himno del estado que tiene una letra.El Himno del Estado de Nuevo León es una composición que celebra la historia, cultura, y valores del estado. Fue adoptado oficialmente en 2007 y es uno de los símbolos representativos de la identidad de Nuevo León. La letra fue escrita por el poeta Serafín Peña, y la música fue compuesta por Edmundo Vásquez.  
+                </p>
+
+                
+                
+                <div style="display: flex; justify-content: center">
+                    <embed src="{% static 'pdf/canto_nl.pdf' %}" type="application/pdf" width="700" height="500">
+                
+                    <audio controls style="margin-left: 25px;">
+                        <source src="{% static 'audio/canto.mp3' %}" type="audio/mpeg">
+                        Tu navegador no soporta la reproducción de audio.
+                    </audio>            
+                </div>
+
+                </section>
+            </article >
+            <br><br><br><br><br><br>
+            <footer>
+                <h2>Creditos</h2>
+                    <a href="mailto:brandon_mendez123@hotmail.com">Envia un correo</a>
+                    <a href="tel:+8121212259">Llamanos</a>
+                    <address>
+                        <p>Desarrollado por: Brandon Ariel Mendez Lopez</p>
+                        <p>Derechos reservados &copy;</p>
+                    </address>
+            </footer>
+            
+    </main> 
+    <!-- Vincular el archivo JS -->
+    <script src="{% static 'js/pagina.js' %}"></script>
+    
+</body>
+
+<body>  </body>
+</html>

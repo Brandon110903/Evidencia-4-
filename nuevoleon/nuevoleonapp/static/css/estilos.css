@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(181, 121, 10); font-size:150%; color: aliceblue;
+}
+
+ul{
+    display: flex;
+}
+/* Sirve para modificar el tipo de lista  */
+li{
+    list-style: none; margin-right:45px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255); 
+}
+main{
+    background-color:  rgb(234, 219, 193); font-size:100%; text-align:center; color: rgb(0, 0, 0) ;
+    padding: 2%;
+}
+
+nav>ul>li>a
+.link_ubicacion:hover{ color: red; 
+
+}
+img{
+    border: 2px; border-color:black ;
+}
+
+aside {
+    background-color: #9b2525;
+}
+
+footer {
+    background-color: rgb(193, 164, 110);
+}
